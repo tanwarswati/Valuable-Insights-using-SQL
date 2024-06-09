@@ -1,5 +1,5 @@
 # Valuable-Insights-using-SQL
-Here I have used three datasets to make the project on SQL. Dataset named as Superstore(kaggle), Netflix(Tableau) and World Military Power(Kaggle).
+Here I have used three datasets to make the project on SQL. Dataset named as Superstore(source: Tableau Website), Netflix(source: Kaggle) and World Military Power(source:Kaggle).
 ## Tool Used : Microsoft SQL Server
 ### Super Store Sales Insights
 - Utilized common table expressions (CTEs) to analyze year-on-year growth of sales.
