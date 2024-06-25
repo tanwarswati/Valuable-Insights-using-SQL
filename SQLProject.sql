@@ -28,25 +28,6 @@ from orders
 where year(order_date) in (2014,2015) 
 group by year(order_date),state,category
 order by sum(sales) desc;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 --To fetch the number of orders coming from the various regions-- 
 select region,count(order_id) as number_of_orders from orders group by region;
 
@@ -56,6 +37,26 @@ from orders o left outer join returns r
 on o.order_id=r.order_id 
 where r.returned='Yes'
 and o.state='New York';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
